@@ -1,0 +1,192 @@
+* {
+ 	margin: 0;
+ 	padding: 0;
+}
+ body {
+ 	background: url(../img/bg_t.jpg) no-repeat center top / cover; 
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.card {
+	width: 876px;
+	height: 529px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nikefon {
+	background: url(../img/white.png) no-repeat center;
+	height: 500px;
+	display:  block;
+}
+
+.left {
+	width: 490px;
+	height: 430px;
+	position: relative;
+	left: 70px;
+	top: 20px;
+}
+
+.right {
+	width: 240px;
+	height: 430px;
+	position: relative;
+	left: 580px;
+	bottom: 400px;
+}
+
+.nikenike {
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.nikenike1 {
+	margin-top: 0px;
+	margin-left: 160px;
+}
+
+.nikenike2 {
+	margin-top: 0px;
+	margin-left: 30px;
+}
+
+.nikenike3 {
+	margin-top: 0px;
+	margin-left: 30px;
+}
+
+.add {
+	position: absolute;
+	left: 460px;
+	top: 320px;
+}
+
+h1 {
+	background-color:  #ffa60d;
+	width: 42px;
+	height: 24px;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.textp {
+	font-family: Roboto;
+	color:  #000000;
+	font-size: 24px;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.color {
+	font-family: Roboto;
+	color:  #5e4fff;
+	font-size: 24px;
+	text-align: left;
+}
+
+.hua {
+	font-family: Roboto;
+	color:  #000000;
+	font-size: 12px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.dollar {
+	font-family: Roboto;
+	color:  #000000;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.size {
+	font-family: Roboto;
+	color:  #000000;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.spysok li {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 15px;
+	font-family: Roboto;
+	padding: 12px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.spysok li:hover {
+	border: 1px solid #0f0f0f;
+}
+
+.addtocard {
+	background-color:  #a200b8;
+	width: 118px;
+	height: 30px;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.wishlist {
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #0f0f0f;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	width: 118px;
+	height: 30px;
+	font-family: Roboto;
+	color:  #000000;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+	position: relative;
+	top: 50px;
+	right: 120px;
+}
+
+.menu li {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family: Roboto;
+	color: white;
+	padding: 20px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	text-align: left;
+	margin-top: 10px;
+	margin-right: 60px;
+	margin-left: 6px;
+}
+
+.menu li:hover {
+	border-bottom: 1px solid white;
+}
+
+.menu li:first-child {
+	border-bottom: none;
+}
+
+.menu li:last-child {
+	border-bottom: none;
+}
